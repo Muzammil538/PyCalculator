@@ -10,16 +10,16 @@ ask = input("What you what to do:")
 
 
 if ask=="+"or "add" or "ADD":
-    print(Num1+Num2)
+    print(str(Num1+Num2))
 
 elif ask=="-" or "minus" or "substract":
-    print(Num1-Num2)
+    print(str(Num1-Num2))
 
 elif ask=="*":
-    print(Num1*Num2)
+    print(str(Num1*Num2))
 
 elif ask=="/":
-    print(Num1/Num2)
+    print(str(Num1/Num2))
 
 else:
     print(Uname,"Entered",Num1,",",Num2,"Do you want to change")
